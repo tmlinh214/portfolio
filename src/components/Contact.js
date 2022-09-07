@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaXingSquare} from 'react-icons/fa'
 function Contact() {
   return (
     <footer className='contact' id='contact'>
-        <h2 className='section--title'>Let's work together</h2>
+        <h2 className='section--title'>Let's work together!</h2>
         <p className='section--sub'></p>
 
         <ul class="contact--list">
