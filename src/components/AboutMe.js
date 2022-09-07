@@ -11,7 +11,7 @@ function AboutMe() {
             <p>So i started my journey as a web developer while still writing my thesis by taking online courses. Let's see where it leads me to!</p>
         </div>
 
-        <img src={process.env.PUBLIC_URL + "/images/pic1.jpg"} alt="" className='about--img'/> 
+        <img src={process.env.PUBLIC_URL + "/images/pic1.png"} alt="" className='about--img'/> 
     </section>
   )
 }
