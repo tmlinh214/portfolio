@@ -10,7 +10,7 @@ function Projects() {
             <div className='projects--item'>
                 <h3 className='projects--item--title'>Quote Machine</h3>
                 <div className='projects--img--container'>
-                    <img src="../images/quote-machine.png" alt="" className='projects--img'/>
+                    <img src={process.env.PUBLIC_URL + "/images/quote-machine.png"} alt="" className='projects--img'/>
                     <div className='projects--img--layer'>
                         <p className='projects--img--text'>I completed this project using React with functional components and useEffect.</p>
                         <div className='projects--img--layer--icon--layout'>
@@ -23,7 +23,7 @@ function Projects() {
             <div className='projects--item'>
                 <h3 className='projects--item--title'>Tenzies Game</h3>
                 <div className='projects--img--container'>
-                    <img src="../images/tenzies.png" alt="" className='projects--img'/>
+                    <img src={process.env.PUBLIC_URL + "/images/tenzies.png"} alt="" className='projects--img'/>
                     <div className='projects--img--layer'>
                         <p className='projects--img--text'>I built this arcade game as final project of the React course from Scrimba. A counter was added by me to determine the number of rolls.</p>
                         <div className='projects--img--layer--icon--layout'>
@@ -36,7 +36,7 @@ function Projects() {
             <div className='projects--item'>
                 <h3 className='projects--item--title'>Basic Calculator</h3>
                 <div className='projects--img--container'>
-                    <img src="../images/calculator.png" alt="" className='projects--img'/>
+                    <img src={process.env.PUBLIC_URL + "/images/calculator.png"} alt="" className='projects--img'/>
                     <div className='projects--img--layer'>
                         <p className='projects--img--text'>A calculator with basic operators built with React.</p>
                         <div className='projects--img--layer--icon--layout'>
@@ -49,7 +49,7 @@ function Projects() {
             <div className='projects--item'>
                 <h3 className='projects--item--title'>Wallpaper Shop</h3>
                 <div className='projects--img--container'>
-                    <img src="../images/wallpaper.png" alt="" className='projects--img'/>
+                    <img src={process.env.PUBLIC_URL + "/images/wallpaper.png"} alt="" className='projects--img'/>
                     <div className='projects--img--layer'>
                         <p className='projects--img--text'>This project was built as part of the advanced React module on Scrimba. I changed the images so that the shop will now sell wallpaper images.</p>
                         <div className='projects--img--layer--icon--layout'>
@@ -62,7 +62,7 @@ function Projects() {
             <div className='projects--item'>
                 <h3 className='projects--item--title'>Fonts Pangrams</h3>
                 <div className='projects--img--container'>
-                    <img src="../images/pangrams.png" alt="" className='projects--img'/>
+                    <img src={process.env.PUBLIC_URL + "/images/pangrams.png"} alt="" className='projects--img'/>
                     <div className='projects--img--layer'>
                         <p className='projects--img--text'>A simple HTML/CSS site containing various free fonts.</p>
                         <div className='projects--img--layer--icon--layout'>

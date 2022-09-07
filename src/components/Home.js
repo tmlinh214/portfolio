@@ -7,7 +7,7 @@ function Home() {
             Hi,<br /> I am <strong>Linh</strong>
         </h1>
         <p className='section--sub section--sub--home'>front-end dev</p>
-        <img src="../images/pic2.jpg" alt="" className='home--img'/>  
+        <img src={process.env.PUBLIC_URL + "/images/pic2.jpg"} alt="" className='home--img'/>  
     </section>
   )
 }
