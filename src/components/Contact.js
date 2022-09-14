@@ -9,16 +9,16 @@ function Contact() {
 
         <ul class="contact--list">
             <li className="contact--list--item">
-                <a className='contact--list--link' href="https://github.com/tmlinh214" target="_blank" rel="noreferrer"><FaGithub className='contact--list--icon'/>Github</a>
+                <a className='contact--list--link' href="https://github.com/tmlinh214" target="_blank" rel="noreferrer"><span><FaGithub className='contact--list--icon'/>Github</span></a>
             </li>
             <li className="contact--list--item">
-                <a className='contact--list--link' href="https://www.linkedin.com/in/manh-linh-tran-2306a424b/" target="_blank" rel="noreferrer"><FaLinkedin className='contact--list--icon'/>Linkedin</a>
+                <a className='contact--list--link' href="https://www.linkedin.com/in/manh-linh-tran-2306a424b/" target="_blank" rel="noreferrer"><span><FaLinkedin className='contact--list--icon'/>Linkedin</span></a>
             </li>
             <li className="contact--list--item">
-                <a className='contact--list--link' href="https://www.xing.com/profile/ManhLinh_Tran/cv" target="_blank" rel="noreferrer"><FaXingSquare className='contact--list--icon'/>Xing</a>
+                <a className='contact--list--link' href="https://www.xing.com/profile/ManhLinh_Tran/cv" target="_blank" rel="noreferrer"><span><FaXingSquare className='contact--list--icon'/>Xing</span></a>
             </li>
             <li className="contact--list--item">
-                <a className='contact--list--link' href="mailto:tmlinh214@gmail.com"><HiMail className='contact--list--icon'/>E-mail</a>
+                <a className='contact--list--link' href="mailto:tmlinh214@gmail.com"><span><HiMail className='contact--list--icon'/>E-mail</span></a>
             </li>
         </ul>
     </footer>
