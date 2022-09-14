@@ -118,9 +118,14 @@ header{
     color: var(--clr-dark);
 }
 @media (max-width: 550px){
+    .nav--list{
+        justify-content: space-around;
+    }
     .nav--link{
         font-size: var(--fs-body);
+        padding: 0 0.2em;
     }
+    
 }
 
 
@@ -361,4 +366,9 @@ header{
 }
 .contact span{
     overflow: hidden;
+}
+@media (max-width: 550px) {
+    .contact--list--link{
+        margin: 0 0.2em;
+    }
 }
