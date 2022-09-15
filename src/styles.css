@@ -220,8 +220,8 @@ header{
                 opacity 250ms linear;
 }
 .projects--img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     
 }
@@ -276,6 +276,7 @@ header{
         margin: 0 auto;
         justify-content: space-between;
         max-width: 1200px;
+        flex-wrap: wrap;
         
     }
 
@@ -288,7 +289,6 @@ header{
         align-items: center;
         margin: 0 auto;
         justify-content: space-between;
-        max-width: 1200px;
         
     }
 }

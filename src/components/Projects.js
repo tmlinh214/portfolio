@@ -72,6 +72,19 @@ function Projects() {
                     </div>
                 </div>
             </div>
+            <div className='projects--item'>
+                <h3 className='projects--item--title'>Facts and Ideas</h3>
+                <div className='projects--img--container'>
+                    <img src={process.env.PUBLIC_URL + "/images/facts.png"} alt="" className='projects--img'/>
+                    <div className='projects--img--layer'>
+                        <p className='projects--img--text'>A time sensitive site using data from some APIs.</p>
+                        <div className='projects--img--layer--icon--layout'>
+                            <a href="https://github.com/tmlinh214/facts-ideas" className='projects--link' target="_blank" rel="noreferrer"><FaGithub className='projects--img--layer--icon'/></a>
+                            <a href="https://tmlinh214.github.io/facts-ideas/" className='projects--link' target="_blank" rel="noreferrer"><FaExternalLinkAlt className='projects--img--layer--icon'/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         {/* <a href="#" className='btn'>See more</a> */}
