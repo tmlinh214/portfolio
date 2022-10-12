@@ -47,14 +47,14 @@ function Projects() {
                 </div>
             </div>
             <div className='projects--item'>
-                <h3 className='projects--item--title'>Wallpaper Shop</h3>
+                <h3 className='projects--item--title'>Movie list</h3>
                 <div className='projects--img--container'>
-                    <img src={process.env.PUBLIC_URL + "/images/wallpaper.png"} alt="" className='projects--img'/>
+                    <img src={process.env.PUBLIC_URL + "/images/movie-list.png"} alt="" className='projects--img'/>
                     <div className='projects--img--layer'>
-                        <p className='projects--img--text'>This project was built as part of the advanced React module on Scrimba. I changed the images so that the shop will now sell wallpaper images.</p>
+                        <p className='projects--img--text'>This project was built with React and styled with Bulma CSS. You can add/remove movies or update information of a movie in this list. You can also search for a movie by title or genre.</p>
                         <div className='projects--img--layer--icon--layout'>
-                            <a href="https://github.com/tmlinh214/wallpaper-shop" className='projects--link' target="_blank" rel="noreferrer"><FaGithub className='projects--img--layer--icon'/></a>
-                            <a href="https://tmlinh214.github.io/wallpaper-shop" className='projects--link' target="_blank" rel="noreferrer"><FaExternalLinkAlt className='projects--img--layer--icon'/></a>
+                            <a href="https://github.com/tmlinh214/movie-list" className='projects--link' target="_blank" rel="noreferrer"><FaGithub className='projects--img--layer--icon'/></a>
+                            <a href="https://tmlinh214.github.io/movie-list" className='projects--link' target="_blank" rel="noreferrer"><FaExternalLinkAlt className='projects--img--layer--icon'/></a>
                         </div>
                     </div>
                 </div>
